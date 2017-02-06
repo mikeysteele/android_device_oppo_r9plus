@@ -25,18 +25,16 @@ $(call inherit-product, device/oppo/r9plus/device.mk)
 $(call inherit-product, vendor/cm/config/common_full_phone.mk)
 
 # Set those variables here to overwrite the inherited values.
-PRODUCT_NAME := cm_r9plus
+PRODUCT_NAME := lineage_r9plus
 PRODUCT_DEVICE := r9plus
 PRODUCT_MANUFACTURER := OPPO
 PRODUCT_BRAND := OPPO
-#PRODUCT_MODEL := OPPO R9 Plusm A
 
 PRODUCT_GMS_CLIENTID_BASE := android-oppo
 
-#TARGET_VENDOR_PRODUCT_NAME := R9PlusmA
+TARGET_VENDOR_PRODUCT_NAME := R9Plus
 TARGET_VENDOR_DEVICE_NAME := R9PlusA
-PRODUCT_BUILD_PROP_OVERRIDES += TARGET_DEVICE=R9PlusA #PRODUCT_NAME=R9PlusmA
-
+PRODUCT_BUILD_PROP_OVERRIDES += TARGET_DEVICE=R9PlusA PRODUCT_NAME=R9Plus
 PRODUCT_BUILD_PROP_OVERRIDES += \
     BUILD_FINGERPRINT=OPPO/R9PlusmA/R9PlusA:5.1.1/LMY47V/1390465867:user/release-keys \
     PRIVATE_BUILD_DESC="msm8952_64-user 5.1.1 LMY47V eng.root.20160729.214248 dev-keys"
