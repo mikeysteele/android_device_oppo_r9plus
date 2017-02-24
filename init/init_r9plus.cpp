@@ -114,7 +114,15 @@ void vendor_load_properties() {
             property_set("ro.product.name", "R9PlustmA");
             property_set("ro.build.product", "R9PlustmA");
             property_set("ro.rf_version", "TDD_FDD_Ch_A_15102");
-	}
+        }else{
+            property_set("ro.product.model", "OPPO X9079");
+            property_set("ro.separate.soft", "MSM_16303");
+            property_set("ro.product.name", "X9079");
+            property_set("ro.build.product", "X9079");
+            property_set("ro.rf_version", "W_G_L_16303");
+
+        }
+	
     }
 
     init_alarm_boot_properties();

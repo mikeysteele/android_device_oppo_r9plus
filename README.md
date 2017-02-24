@@ -1,6 +1,6 @@
 Copyright 2016 - The CyanogenMod Project.
 
-Device Tree for Oppo R9 Plus (X9079)
+Device Tree for Oppo R9 Plus (X9079EX)
 ===========================================
 
 Basic   | Spec Sheet

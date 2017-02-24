@@ -7,6 +7,7 @@ gsm.lte.ca.support=1
 ro.qualcomm.cabl=2
 ro.lcd.backlight.config_samsung=7,52,11,30,65,108,175,255
 persist.sys.oppo.region=CN
+ro.oppo.market.name=R9 Plus
 ro.qti.sensors.wu=false
 persist.radio.lte_vrte_ltd=1
 persist.dbg.volte_avail_ovr=1
